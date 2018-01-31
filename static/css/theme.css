@@ -1,0 +1,77 @@
+/* GENERAL */
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    overflow: hidden;
+    margin: 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style-type: none;
+    padding-top: 3px;
+}
+h1, h2, h3, h4, p {
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom:0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.underline {
+    text-decoration: underline
+}
+.column {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#left {
+    width: 300px;
+    flex-shrink: 0;
+}
+.top-left {
+    height: 100px;
+}
+.bottom-left {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.right {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    flex: 1;
+    overflow-y: auto;
+}
+
+
+/* NAV BAR */
+.logo {
+    font-weight: 200;
+    font-size: large;
+}
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 50px;
+}
+.icon {
+    margin-right: 10px;
+}
