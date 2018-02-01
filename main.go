@@ -18,6 +18,7 @@ func main() {
 	// Valid Routes
 	routes := []string{
 			"/",
+			"/about",
 			"/projects",
 			"/blog",
 			"/projects/{projectname}",
