@@ -1,3 +1,5 @@
-# Golang Website
+# Golang Portfolio Template 
 
-Template for a developer's website written in golang. 
+Website template for a portfolio. This application uses gorilla/mux for routing (https://github.com/gorilla/mux). In root directory execute, "go run main.go handlers.go". 
+
+
